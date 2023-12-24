@@ -1,9 +1,9 @@
-A website that showcases all my projects, skills attained, hobbies and interests. I self-taught myself HTML and CSS to customize this website. 
-The template used for this website was obtained from Massively by HTML5 UP.
-Note that the website is still a work in progress. 
+Personal Portfolio Website
+
+A website that showcases all my projects, skills attained, hobbies and interests. I self-taught myself HTML and CSS to customize this website. The template used for this website was obtained from Massively by HTML5 UP. Note that the website is still a work in progress. 
 
 Credits:
-
+Muhammed Nabeel Azard
 Massively by HTML5 UP
 html5up.net | @ajlkn
 Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
