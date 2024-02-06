@@ -1,100 +1,95 @@
-<!DOCTYPE HTML>
-<!--
-	Massively by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<title>Muhammed Nabeel Azard</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muhammed Nabeel Azard</title>
+    <link rel="stylesheet" href="assets/css/main.css">
+    <noscript>
+        <link rel="stylesheet" href="assets/css/noscript.css">
+    </noscript>
+</head>
+<body class="is-preload">
 
-		<!-- Wrapper -->
-			<div id="wrapper" class="fade-in">
+<!-- Wrapper -->
+<div id="wrapper" class="fade-in">
 
-				<!-- Intro -->
-					<div id="intro">
-						<h1>Muhammed Nabeel Azard<!--<br />
-						Portfolio--></h1>
-						<p>I am currently an undergraduate student at Carleton University pursuing a degree in Software Engineering. I am skilled in Python, C, Java, HTML and CSS. <a href="https://html5up.net/license"></a></p><!--@alink-->
-						<ul class="actions">
-							<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
+    <!-- Intro -->
+    <div id="intro">
+        <h1>Muhammed Nabeel Azard</h1>
+        <p>I am currently an undergraduate student at Carleton University pursuing a degree in Software Engineering. I am skilled in Python, C, Java, HTML and CSS.</p>
+        <ul class="actions">
+            <li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
+        </ul>
+    </div>
+
+    <!-- Header -->
+    <header id="header">
+        <a href="index.html" class="logo">Muhammed Nabeel Azard</a>
+    </header>
+
+    <!-- Nav -->
+    <nav id="nav">
+        <ul class="links">
+            <li class="active"><a href="index.html">Projects</a></li>
+        </ul>
+        <ul class="icons">
+            <li><a href="https://www.linkedin.com/in/muhammed-nabeel-azard-589561261/" class="icon brands fa-linkedin"><span class="label">linkedin</span></a></li>
+            <li><a href="https://github.com/na2099" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+        </ul>
+    </nav>
+
+    <!-- Main -->
+    <div id="main">
+
+        <!-- Featured Post -->
+        <article class="post featured">
+            <header class="major">
+                <h2><a href="#">Data Analyzer</a></h2>
+                <p>I created a Data Analyzer to manipulate large amounts of data in a given CSV file, using Python.</p>
+            </header>
+            <a href="#" class="image main"><img src="images/Screenshot (7677).png" alt="" /></a>
+            <ul class="actions special">
+                <li><a href="https://github.com/na2099/Data-Analyzer" class="button large">Read more</a></li>
+            </ul>
+        </article>
+
+		<!-- Posts -->
+			<section class="posts">
+				<article>
+					<header>
+						<!--<span class="date">April 24, 2017</span>-->
+						<h2><a href="#">Traffic-Light-Controller</a></h2>
+						</header>
+						<a href="#" class="image fit"><img src="images/Screenshot (8569).png" alt="" /></a>
+						<p>Programmed a simulator for a simple traffic light controller using Timers and Switches on a MSP432P401R microcontroller. 
+						The program models a traffic light's behaviour. The program goes through an infinite cycle: green light for 5 seconds, yellow light for 1 second, 
+						red light for 3 seconds. The model is implemented using a timer-based solution. The timer ISR keeps track of the time, and when the right time comes, 
+						it changes the traffic light state. This information is shared with the main program, which is in charge of changing the colors.
+						</p>
+						<ul class="actions special">
+						<li><a href="https://github.com/na2099/Traffic-Light-Controller" class="button">Read more</a></li>
 						</ul>
-					</div>
-
-				<!-- Header -->
-					<header id="header">
-						<a href="index.html" class="logo">Muhammed Nabeel Azard</a>
-					</header>
-
-				<!-- Nav -->
-					<nav id="nav">
-						<ul class="links">
-							<li class="active"><a href="index.html">Projects</a></li>
-							<!--<li><a href="generic.html">Generic Page</a></li>
-							<li><a href="elements.html">Elements Reference</a></li> -->
-						</ul>
-						<ul class="icons">
-							<li><a href="https://www.linkedin.com/in/muhammed-nabeel-azard-589561261/" class="icon brands fa-linkedin"><span class="label">linkedin</span></a></li>
-							<li><a href="https://github.com/na2099" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-						</ul>
-					</nav>
-
-				<!-- Main -->
-					<div id="main">
-
-						<!-- Featured Post -->
-							<article class="post featured">
-								<header class="major">
-									<!--span class="date">April 25, 2017</span-->
-									<h2><a href="#">Data<br />
-									Analyzer</a></h2>
-									<p>I created a Data Analyzer to manipulate large ammounts of data in a given CSV file, using Python.</p>
-								</header>
-								<a href="#" class="image main"><img src="images/Screenshot (7677).png" alt="" /></a>
-								<ul class="actions special">
-									<li><a href="https://github.com/na2099/Data-Analyzer" class="button large">Read more</a></li>
-								</ul>
-							</article>
-
-						<!-- Posts -->
-							<section class="posts">
-								<article>
-									<header>
-										<!--<span class="date">April 24, 2017</span>-->
-										<h2><a href="#">Hydronic System</a></h2>
-									</header>
-									<a href="#" class="image fit"><img src="images/20230208_201317.jpg" alt="" /></a>
-									<p>Built a Hydronic System (a device that allows the user to grow a plant using technology, by detecting how much light and water the plant requires for it to grow), in order to completely automate the growth of a plant.
-									   Developed the program that operated the Hydronic device using the C programming language, to make sure the sensors were working properly.
-                                       Used a Laser Cutter to cut the main physical component that is supposed to hold the Arduino cc and a mini breadboard.
-									   Conducted a presentation on the experience of taking part in the internship and  summarized how the Hydronic system was built, to a non-technical audience.
-									</p>
-									<ul class="actions special">
-										<li><a href="#" class="button">Read more</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<!--<span class="date">April 22, 2017</span>-->
-										<h2><a href="#">Implementing an<br />
+						</article>
+						<article>
+						<header>
+						<!--<span class="date">April 22, 2017</span>-->
+						<!--
+						<h2><a href="#">Implementing an<br />
 										Electrical System</a></h2>
-									</header>
-									<a href="#" class="image fit"><img src="images/Screenshot (4968).jpg" alt="" /></a>
-									<p>Developed an Electrical System, where the user would have control over a DC Motor. The system was built using a Raspberry Pi4 (running on Linux) using Python.
+						</header>
+						<a href="#" class="image fit"><img src="images/Screenshot (4968).jpg" alt="" /></a>
+						<p>Developed an Electrical System, where the user would have control over a DC Motor. The system was built using a Raspberry Pi4 (running on Linux) using Python.
 									   Programmed for the UI of the system. The interface lets the user control a DC motor by asking the user for input and implementing their commands.
 									   Programmed for a DC Motor that executes the commands outlined in the user interface, and for a LED strip that lights up based on when the DC Motor turns on.
 									   Summarized the process of designing the system in a Report, in order to convey information about how the team went about designing the Electrical System. 
-									</p>
-									<ul class="actions special">
-										<li><a href="#" class="button">Read more</a></li>
-									</ul>
-								</article>
+						</p>
+						<ul class="actions special">
+						<li><a href="#" class="button">Read more</a></li>
+						</ul>
+						</article>
+						-->
+
 								<article>
 									<header>
 										<!--<span class="date">April 22, 2017</span>-->
@@ -120,39 +115,35 @@
 								</article>
 							</section>
 
-				<!-- Footer -->
-					<footer id="footer">
-						<section class="split contact">
-							<section class="alt">
-								<h3>Location</h3>
-								<p>Ottawa, ON</p>
-							</section>
-							<!--<section>
-								<h3>Phone</h3>
-								<p><a href="#">(000) 000-0000</a></p>
-							</section> -->
-							<section>
-								<h3>Email</h3>
-								<p><a href="#">nabeelazard@gmail.com</a></p>
-							</section>
-							<section>
-								<h3>Social</h3>
-								<ul class="icons alt">
-									<li><a href="https://www.linkedin.com/in/muhammed-nabeel-azard-589561261/" class="icon brands alt fa-linkedin"><span class="label">linkedin</span></a></li>
-									<li><a href="https://github.com/na2099" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
-								</ul>
-							</section>
+				 <!-- Footer -->
+				 <footer id="footer">
+					<section class="split contact">
+						<section class="alt">
+							<h3>Location</h3>
+							<p>Ottawa, ON</p>
 						</section>
-					</footer>
-
+						<section>
+							<h3>Email</h3>
+							<p><a href="#">nabeelazard@gmail.com</a></p>
+						</section>
+						<section>
+							<h3>Social</h3>
+							<ul class="icons alt">
+								<li><a href="https://www.linkedin.com/in/muhammed-nabeel-azard-589561261/" class="icon brands alt fa-linkedin"><span class="label">linkedin</span></a></li>
+								<li><a href="https://github.com/na2099" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+							</ul>
+						</section>
+					</section>
+				</footer>
+		
 				<!-- Copyright -->
-					<div id="copyright">
-						<!--<ul><li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>-->
-					</div>
-
+				<div id="copyright">
+					<!-- <ul><li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul> -->
+				</div>
+		
 			</div>
-
-		<!-- Scripts -->
+		
+			<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.scrollex.min.js"></script>
 			<script src="assets/js/jquery.scrolly.min.js"></script>
@@ -160,6 +151,7 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-
-	</body>
-</html>
+		
+		</div>
+		</body>
+		</html>
